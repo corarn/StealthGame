@@ -1,0 +1,7 @@
+# ビルドすると毎回作り直されるもの（StealthGame/x64/ の途中のファイルもこれで外れる）
+x64/
+.vs/
+*.user
+
+# DebugUI(ImGui) が実行のたびに書き換える一時ファイル
+imgui.ini
